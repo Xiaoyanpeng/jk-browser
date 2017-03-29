@@ -244,6 +244,38 @@
                     .bgimage('../img/yisheng.png');
                     .posi-rlt(-12px;6px);
                 }
+                &.yizhuman:before{
+                    content: ' ';
+                    .ib;
+                    width: 24px;
+                    height: 24px;
+                    .bgimage('../img/yizhuduixiang_icon.png');
+                    .posi-rlt(-12px;6px);
+                }
+                &.yizhutext:before{
+                    content: ' ';
+                    .ib;
+                    width: 24px;
+                    height: 24px;
+                    .bgimage('../img/yizhuneirong_icon.png');
+                    .posi-rlt(-12px;6px);
+                }
+                &.ruyuan:before{
+                    content: ' ';
+                    .ib;
+                    width: 24px;
+                    height: 24px;
+                    .bgimage('../img/ruyuanqingkuang_icon.png');
+                    .posi-rlt(-12px;6px);
+                }
+                &.huanzhe:before{
+                    content: ' ';
+                    .ib;
+                    width: 24px;
+                    height: 24px;
+                    .bgimage('../img/huanzhebingshi_icon.png');
+                    .posi-rlt(-12px;6px);
+                }
             }
             .content{
                 padding: 10px 20px;
@@ -254,6 +286,12 @@
                     width: 242px;
                     &:nth-child(4),&:nth-child(8){
                         width: 152px;
+                    }
+                    &.longer{
+                        width: 350px;
+                    }
+                    &.long{
+                        width: 260px;
                     }
                 }
                 .detail{
@@ -269,6 +307,26 @@
                     .fl;.dot;
                     width: 242px;
                 }
+                .table-gap{
+                    margin-bottom: 30px;
+                }
+                .case{
+                    padding: 15px 0px 10px;
+                    .s-tit{
+                        color: #b6bfc9;
+                        line-height: 1.8;
+                    }
+                    .s-content{
+                        line-height: 1.8;
+                    }
+                    .s-ul{
+                        li{
+                            .fl;
+                            line-height: 1.8;
+                            width: 270px;
+                        }
+                    }
+                }
             }
         }
     }
@@ -282,7 +340,7 @@
     }
 }
 .table{
-    margin: 15px 0px;
+    margin: 20px 0px;
     max-width: 100%;
     background-color: transparent;
     empty-cells: show;
@@ -310,10 +368,13 @@
         text-align: center;
         padding: 0.7rem 0px;
         line-height: 1.6;
-        vertical-align: bottom;
+        vertical-align: middle;
         border-top: 0;
         border-top-left-radius: 2px;
         border-left: none;
+        &.topborder{
+            border-top: 1px solid #ddd;
+        }
     }
     td{
         display: table-cell;
@@ -324,6 +385,12 @@
         border-top: 1px solid #ddd;
         &:first-child{
             border-left: none;
+        }
+        &.leftborder{
+            border-left: 1px solid #ddd;
+        }
+        .fourrow{
+            .moredot(5);
         }
     }
 }
