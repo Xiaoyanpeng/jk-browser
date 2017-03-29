@@ -1,0 +1,141 @@
+.noselect {
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+.dot {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.cur {
+  cursor: pointer;
+}
+* {
+  box-sizing: border-box;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}
+.vertical {
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ib {
+  display: inline-block;
+}
+.top-title {
+  line-height: 50px;
+  height: 50px;
+  width: 100%;
+  background-color: #1286ff;
+  font-size: 20px;
+  color: #ffffff;
+  padding-left: 20px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.06);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99999;
+}
+.main-bco {
+  background-color: #f2fbff;
+  margin-top: 50px;
+  padding-bottom: 40px;
+  cursor: default;
+}
+.home-footer {
+  cursor: default;
+  padding: 25px 0px;
+}
+.home-footer p.text {
+  font-size: 14px;
+  color: #28405d;
+  text-align: center;
+  line-height: 1.6;
+}
+.home-footer p.text a {
+  font-size: 14px;
+  color: #28405d;
+}
+.home-footer p.text a:hover {
+  color: #ff5959;
+}
+.home-footer p.text span.img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('../../../images/ghs.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  top: 4px;
+  left: 0px;
+  margin-right: 5px;
+}
+.top-detail-nav {
+  height: 70px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  position: relative;
+}
+.top-detail-nav .top-detail-tit {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 16px;
+  color: #28405d;
+}
+.top-detail-nav .top-detail-tit:before {
+  content: " ";
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  position: relative;
+  top: 4px;
+  left: -10px;
+  background: url('../../../images/addr.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.top-detail-nav .bttn-back {
+  display: block;
+  width: 90px;
+  height: 36px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #1286ff;
+  color: #ffffff;
+  font-size: 16px;
+  position: absolute;
+  top: 17px;
+  right: 20px;
+}
+.wm1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
