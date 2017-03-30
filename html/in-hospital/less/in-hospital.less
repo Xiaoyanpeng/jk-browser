@@ -276,9 +276,61 @@
                     .bgimage('../img/huanzhebingshi_icon.png');
                     .posi-rlt(-12px;6px);
                 }
+                &.juti:before{
+                    content: ' ';
+                    .ib;
+                    width: 24px;
+                    height: 24px;
+                    .bgimage('../img/jutineirong_icon.png');
+                    .posi-rlt(-12px;6px);
+                }
+                &.jieguo:before{
+                    content: ' ';
+                    .ib;
+                    width: 24px;
+                    height: 24px;
+                    .bgimage('../img/jianchajieguo_icon.png');
+                    .posi-rlt(-12px;6px);
+                }
+                &.renyuan:before{
+                    content: ' ';
+                    .ib;
+                    width: 24px;
+                    height: 24px;
+                    .bgimage('../img/jiancharenyuan_icon.png');
+                    .posi-rlt(-12px;6px);
+                }
+                &.jianyan:before{
+                    content: ' ';
+                    .ib;
+                    width: 24px;
+                    height: 24px;
+                    .bgimage('../img/jianyanjieguo_icon.png');
+                    .posi-rlt(-12px;6px);
+                }
+                &.huizhen:before{
+                    content: ' ';
+                    .ib;
+                    width: 24px;
+                    height: 24px;
+                    .bgimage('../img/huizhenxinxi_icon.png');
+                    .posi-rlt(-12px;6px);
+                }
+                &.zhuanzhen:before{
+                    content: ' ';
+                    .ib;
+                    width: 24px;
+                    height: 24px;
+                    .bgimage('../img/zhuanzhenxinxi_icon.png');
+                    .posi-rlt(-12px;6px);
+                }
             }
             .content{
                 padding: 10px 20px;
+                &.nopadtop{
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                }
                 .font(16px;@black);
                 .one{
                     padding: 12px 0px;
@@ -293,6 +345,21 @@
                     &.long{
                         width: 260px;
                     }
+                    &.w-33{
+                        width: 292px;
+                    }
+                    &.w-152{
+                        width: 152px;
+                    }
+                    &.w-363{
+                        width: 363px;
+                    }
+                    &.w-484{
+                        width: 484px;
+                    }
+                    &.w-393{
+                        width: 393px;
+                    }
                 }
                 .detail{
                     width: 100%;
@@ -306,6 +373,15 @@
                     padding: 12px 0px;
                     .fl;.dot;
                     width: 242px;
+                    &.w-360{
+                        width: 360px;
+                    }
+                    &.w-350{
+                        width: 350px;
+                    }
+                    &.w-168{
+                        width:168px;
+                    }
                 }
                 .table-gap{
                     margin-bottom: 30px;
@@ -324,6 +400,22 @@
                             .fl;
                             line-height: 1.8;
                             width: 270px;
+                        }
+                    }
+                    .hc-img{
+                        img{
+                            .ib;
+                            width: 200px;
+                            height: 200px;
+                            border-radius: 5px;
+                            margin-right: 20px;
+                            margin-bottom: 10px;
+                            margin-top: 10px;
+                            &:nth-child(4n){
+                                margin-right: 0px;
+                            }
+
+                            
                         }
                     }
                 }
@@ -361,6 +453,13 @@
             border-top: none;
         }
     }
+    &.nomarginb{
+        margin-bottom: 0px;
+    }
+    &.nomargin{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
     th{
         background-color: #f5f7f9;
         display: table-cell;
@@ -389,8 +488,85 @@
         &.leftborder{
             border-left: 1px solid #ddd;
         }
+        &.rightborder{
+            border-right: 1px solid #ddd;
+        }
         .fourrow{
             .moredot(5);
+        }
+        &.bold{
+            font-weight: bold;
+        }
+        &.sum{
+            text-align: left;
+            padding-left: 30px;
+        }
+        &.red{
+            color: #ff5959;
+        }
+    }
+    tr.success-down{
+        td{
+            color: #67e39e;
+            &:nth-child(2){
+                padding-left: 20px;
+                &:after{
+                    content: ' ';
+                    .ib;
+                    width: 16px;
+                    height: 18px;
+                    .bgimage('../img/success-down.png');
+                    .posi-rrt(-6px;2px);
+                }
+            }
+        }
+    }
+    tr.success-up{
+        td{
+            color: #67e39e;
+            &:nth-child(2){
+                padding-left: 20px;
+                &:after{
+                    content: ' ';
+                    .ib;
+                    width: 16px;
+                    height: 18px;
+                    .bgimage('../img/success-up.png');
+                    .posi-rrt(-6px;3px);
+                }
+            }
+        }
+    }
+    tr.danger-up{
+        td{
+            color: #ff5959;
+            &:nth-child(2){
+                padding-left: 20px;
+                &:after{
+                    content: ' ';
+                    .ib;
+                    width: 16px;
+                    height: 18px;
+                    .bgimage('../img/danger-up.png');
+                    .posi-rrt(-6px;3px);
+                }
+            }
+        }
+    }
+    tr.danger-down{
+        td{
+            color: #ff5959;
+            &:nth-child(2){
+                padding-left: 20px;
+                &:after{
+                    content: ' ';
+                    .ib;
+                    width: 16px;
+                    height: 18px;
+                    .bgimage('../img/danger-down.png');
+                    .posi-rrt(-6px;2px);
+                }
+            }
         }
     }
 }
