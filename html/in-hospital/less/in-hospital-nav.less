@@ -1,0 +1,179 @@
+@import '../../home/less/common.less';
+
+.right-container{
+    width: 958px;
+    .fr;
+}
+.left-slide-lp{
+    width: 232px;
+    .fl;
+    min-height: 1050px;
+    background-color: #fff;
+    padding-top: 24px;
+    .list{
+        .one{
+            .font(16px;@black);
+            .top{
+                height: 50px;
+                line-height: 50px;
+                padding-left: 48px;
+                margin-bottom: 5px;
+                &.clicked{
+                    color: @blue;
+                }  
+            }
+            &:hover{
+                background-color: #f5f7f9;
+            }
+            &.more .top.clicked{
+                color: @black;   
+            }
+            &.active:hover{
+                background-color: #fff;
+            }
+            &.active .son:hover{
+                color: @blue;
+            }
+            .child-list{
+                display: none;
+                .son{
+                    height: 50px;
+                    line-height: 50px;
+                    .font(16px;@black);
+                    padding-left: 81px;
+                    &:before{
+                        content: ' ';
+                        .ib;
+                        width: 5px;
+                        height: 5px;
+                        .bgimage('../img/round.png');
+                        .posi-rlt(-10px;-2px);
+                    }
+                }
+            }
+            &.active .child-list{
+                display: block;
+            }
+            &.active .child-list .son.clicked{
+                color: @blue;
+            }
+        }
+        .bingan{
+            &:before{
+                content: ' ';
+                .ib;
+                width: 26px;
+                height: 26px;
+                .bgimage('../img/binganshouye_icon.png');
+                .posi-rlt(-18px;7px);
+            }
+        }
+        .changqi{
+            &:before{
+                content: ' ';
+                .ib;
+                width: 26px;
+                height: 26px;
+                .bgimage('../img/changqiyizhu_icon.png');
+                .posi-rlt(-18px;7px);
+            }
+        }
+        .linshi{
+            &:before{
+                content: ' ';
+                .ib;
+                width: 26px;
+                height: 26px;
+                .bgimage('../img/linshiyizhu_icon.png');
+                .posi-rlt(-18px;7px);
+            }
+        }
+        .zhuyuan{
+            &:before{
+                content: ' ';
+                .ib;
+                width: 26px;
+                height: 26px;
+                .bgimage('../img/ruyuanjilu_icon.png');
+                .posi-rlt(-18px;7px);
+            }
+        }
+        .chuyuan{
+            &:before{
+                content: ' ';
+                .ib;
+                width: 26px;
+                height: 26px;
+                .bgimage('../img/chuyuanxiaojie_icon.png');
+                .posi-rlt(-18px;7px);
+            }
+        }
+        .jiancha{
+            &:before{
+                content: ' ';
+                .ib;
+                width: 26px;
+                height: 26px;
+                .bgimage('../img/zhuyuanjiancha_icon.png');
+                .posi-rlt(-18px;7px);
+            }
+        }
+        .jianyan{
+            &:before{
+                content: ' ';
+                .ib;
+                width: 26px;
+                height: 26px;
+                .bgimage('../img/zhuyuanjianyan_icon.png');
+                .posi-rlt(-18px;7px);
+            }
+        }
+        .huizhen{
+            &:before{
+                content: ' ';
+                .ib;
+                width: 26px;
+                height: 26px;
+                .bgimage('../img/huizhenjilu_icon.png');
+                .posi-rlt(-18px;7px);
+            }
+        }
+        .zhuanzhen{
+            &:before{
+                content: ' ';
+                .ib;
+                width: 26px;
+                height: 26px;
+                .bgimage('../img/zhuanzhenjilu_icon.png');
+                .posi-rlt(-18px;7px);
+            }
+        }
+        .feiyong{
+            &:before{
+                content: ' ';
+                .ib;
+                width: 26px;
+                height: 26px;
+                .bgimage('../img/feiyongqingdan_icon.png');
+                .posi-rlt(-18px;7px);
+            }
+        }
+        .more .top{
+            position: relative;
+            &:after{
+                content: ' ';
+                .ib;
+                width: 13px;
+                height: 13px;
+                .bgimage('../img/tri-down.png');
+                .posi-art(26px;19px);
+            }
+        }
+        .more.active .top{
+            position: relative;
+            &:after{
+                .bgimage('../img/tri-up.png');
+            }
+        }
+    }
+}

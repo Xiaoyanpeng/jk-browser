@@ -1,16 +1,11 @@
 $(function(){
     //iframe的src对应的url
     var urlList = [ 
-        {url:'inpatient-record.html'},//住院病案
-        {url:'long-doctor-advice.html'},//长期医嘱
-        {url:'short-doctor-advice.html'},//临时医嘱
-        {url:'comein-record.html'},//入院记录
-        {url:'leave-summary.html'},//出院小结
-        {url:'hospital-check.html'},//住院检查
-        {url:'hospital-inspection.html'},//住院检验
-        {url:'meeting-record.html'},//会诊记录
-        {url:'transfer-record.html'},//转诊记录
-        {url:'cost-listing.html'}//费用清单
+        {url:'patient-abstract.html'},//门诊摘要
+        {url:'patient-drug.html'},//门诊处方
+        {url:'../in-hospital/hospital-check.html'},//门诊检查
+        {url:'../in-hospital/hospital-inspection.html'},//门诊检验
+        {url:'../in-hospital/cost-listing.html'}//费用清单
     ]
 
     //iframe自适应高度

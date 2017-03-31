@@ -139,6 +139,10 @@
   width: 1200px;
   margin: 0 auto;
 }
+.right-container {
+  width: 958px;
+  float: right;
+}
 .left-slide-lp {
   width: 232px;
   float: left;
@@ -179,7 +183,7 @@
   line-height: 50px;
   font-size: 16px;
   color: #28405d;
-  padding-left: 40px;
+  padding-left: 81px;
 }
 .left-slide-lp .list .one .child-list .son:before {
   content: ' ';
@@ -199,64 +203,124 @@
 .left-slide-lp .list .one.active .child-list .son.clicked {
   color: #1286ff;
 }
-.left-slide-lp .list .zhaiyao:before {
+.left-slide-lp .list .bingan:before {
   content: ' ';
   display: inline-block;
-  width: 24px;
-  height: 24px;
-  background: url('../img/zhaiyao.png') no-repeat;
+  width: 26px;
+  height: 26px;
+  background: url('../img/binganshouye_icon.png') no-repeat;
   background-size: contain;
   background-position: center;
   position: relative;
-  top: 6px;
+  top: 7px;
+  left: -18px;
+}
+.left-slide-lp .list .changqi:before {
+  content: ' ';
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: url('../img/changqiyizhu_icon.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  top: 7px;
+  left: -18px;
+}
+.left-slide-lp .list .linshi:before {
+  content: ' ';
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: url('../img/linshiyizhu_icon.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  top: 7px;
+  left: -18px;
+}
+.left-slide-lp .list .zhuyuan:before {
+  content: ' ';
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: url('../img/ruyuanjilu_icon.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  top: 7px;
+  left: -18px;
+}
+.left-slide-lp .list .chuyuan:before {
+  content: ' ';
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: url('../img/chuyuanxiaojie_icon.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  top: 7px;
   left: -18px;
 }
 .left-slide-lp .list .jiancha:before {
   content: ' ';
   display: inline-block;
-  width: 24px;
-  height: 24px;
-  background: url('../img/jiancha.png') no-repeat;
+  width: 26px;
+  height: 26px;
+  background: url('../img/zhuyuanjiancha_icon.png') no-repeat;
   background-size: contain;
   background-position: center;
   position: relative;
-  top: 6px;
-  left: -18px;
-}
-.left-slide-lp .list .chufang:before {
-  content: ' ';
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  background: url('../img/chufang.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: 6px;
+  top: 7px;
   left: -18px;
 }
 .left-slide-lp .list .jianyan:before {
   content: ' ';
   display: inline-block;
-  width: 24px;
-  height: 24px;
-  background: url('../img/jianyan.png') no-repeat;
+  width: 26px;
+  height: 26px;
+  background: url('../img/zhuyuanjianyan_icon.png') no-repeat;
   background-size: contain;
   background-position: center;
   position: relative;
-  top: 6px;
+  top: 7px;
   left: -18px;
 }
-.left-slide-lp .list .qingdan:before {
+.left-slide-lp .list .huizhen:before {
   content: ' ';
   display: inline-block;
-  width: 24px;
-  height: 24px;
-  background: url('../img/qingdan.png') no-repeat;
+  width: 26px;
+  height: 26px;
+  background: url('../img/huizhenjilu_icon.png') no-repeat;
   background-size: contain;
   background-position: center;
   position: relative;
-  top: 6px;
+  top: 7px;
+  left: -18px;
+}
+.left-slide-lp .list .zhuanzhen:before {
+  content: ' ';
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: url('../img/zhuanzhenjilu_icon.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  top: 7px;
+  left: -18px;
+}
+.left-slide-lp .list .feiyong:before {
+  content: ' ';
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: url('../img/feiyongqingdan_icon.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  top: 7px;
   left: -18px;
 }
 .left-slide-lp .list .more .top {
@@ -281,164 +345,4 @@
   background: url('../img/tri-up.png') no-repeat;
   background-size: contain;
   background-position: center;
-}
-.right-slide-lp {
-  width: 958px;
-  position: relative;
-  float: right;
-  min-height: 1050px;
-  background-color: #fff;
-}
-.right-slide-lp .big-title {
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
-  font-size: 20px;
-  color: #28405d;
-  font-weight: bold;
-}
-.right-slide-lp .messg-list {
-  padding: 0px 20px 120px 20px;
-}
-.right-slide-lp .messg-list .msg-one .title {
-  padding-left: 28px;
-  height: 50px;
-  line-height: 49px;
-  font-size: 16px;
-  color: #28405d;
-  font-weight: bold;
-  border-bottom: solid 1px #dce5f1;
-}
-.right-slide-lp .messg-list .msg-one .title.xinxi:before {
-  content: ' ';
-  display: inline-block;
-  width: 31px;
-  height: 31px;
-  background: url('../img/xinxi.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: 9px;
-  left: -16px;
-}
-.right-slide-lp .messg-list .msg-one .title.zhenduan:before {
-  content: ' ';
-  display: inline-block;
-  width: 31px;
-  height: 31px;
-  background: url('../img/zhenduan.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: 9px;
-  left: -16px;
-}
-.right-slide-lp .messg-list .msg-one .title.rp:before {
-  content: ' ';
-  display: inline-block;
-  width: 31px;
-  height: 31px;
-  background: url('../img/rp.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: 9px;
-  left: -16px;
-}
-.right-slide-lp .messg-list .msg-one .title.yaoshi:before {
-  content: ' ';
-  display: inline-block;
-  width: 31px;
-  height: 31px;
-  background: url('../img/yaoshi.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: 9px;
-  left: -16px;
-}
-.right-slide-lp .messg-list .msg-one .content {
-  padding: 10px 20px;
-}
-.right-slide-lp .messg-list .msg-one .content .one {
-  font-size: 16px;
-  color: #28405d;
-  height: 48px;
-  line-height: 48px;
-  float: left;
-}
-.right-slide-lp .messg-list .msg-one .content .one:nth-child(1),
-.right-slide-lp .messg-list .msg-one .content .one:nth-child(4) {
-  width: 369px;
-}
-.right-slide-lp .messg-list .msg-one .content .one:nth-child(2) {
-  width: 329px;
-}
-.right-slide-lp .messg-list .msg-one .content .one:nth-child(3) {
-  width: 180px;
-}
-.right-slide-lp .messg-list .msg-one .content .one:nth-child(5) {
-  width: 509px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-}
-.right-slide-lp .messg-list .msg-one .content .state {
-  font-size: 16px;
-  color: #28405d;
-  line-height: 2;
-}
-.right-slide-lp .messg-list .msg-one .content.text {
-  padding: 20px;
-}
-.right-slide-lp .messg-list .msg-one .content .rp-one {
-  font-size: 16px;
-  color: #28405d;
-}
-.right-slide-lp .messg-list .msg-one .content .rp-one .tit {
-  margin-top: 10px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  font-weight: 600;
-  line-height: 36px;
-}
-.right-slide-lp .messg-list .msg-one .content .rp-one .method,
-.right-slide-lp .messg-list .msg-one .content .rp-one .size,
-.right-slide-lp .messg-list .msg-one .content .rp-one .total {
-  display: inline-block;
-  padding-right: 10px;
-  line-height: 36px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-}
-.right-slide-lp .messg-list .msg-one .content .rp-one .method {
-  width: 449px;
-}
-.right-slide-lp .messg-list .msg-one .content .rp-one .size {
-  width: 309px;
-}
-.right-slide-lp .messg-list .msg-one .content .rp-one .total {
-  width: 110px;
-}
-.right-slide-lp .messg-list .msg-one .content .yaoshi-one {
-  font-size: 16px;
-  color: #28405d;
-  display: inline-block;
-  width: 230px;
-}
-.right-slide-lp .messg-list .msg-one .content .yaoshi-one:last-child {
-  width: 175px;
-}
-.right-slide-lp .foot-title {
-  width: 100%;
-  height: 70px;
-  line-height: 70px;
-  font-size: 14px;
-  color: #b6bfc9;
-  text-align: center;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
 }

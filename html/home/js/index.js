@@ -38,5 +38,15 @@ $(function(){
             $('.j-blank').hide();
         }
     })
+//点击跳转页面
+    $('#time_tree').on('click','.j-treeDetail',function(){
+        var $type = $(this).data('type')
+        if($type == '住院'){
+            window.location.href="../in-hospital/index.html";
+        }
+        if($type == '门诊'){
+            window.location.href="../look-patient/index.html";
+        }
+    })
     
 })

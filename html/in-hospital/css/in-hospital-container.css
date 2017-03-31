@@ -139,213 +139,9 @@
   width: 1200px;
   margin: 0 auto;
 }
-.left-slide-lp {
-  width: 232px;
-  float: left;
-  min-height: 1050px;
-  background-color: #fff;
-  padding-top: 24px;
-}
-.left-slide-lp .list .one {
-  font-size: 16px;
-  color: #28405d;
-}
-.left-slide-lp .list .one .top {
-  height: 50px;
-  line-height: 50px;
-  padding-left: 48px;
-  margin-bottom: 5px;
-}
-.left-slide-lp .list .one .top.clicked {
-  color: #1286ff;
-}
-.left-slide-lp .list .one:hover {
-  background-color: #f5f7f9;
-}
-.left-slide-lp .list .one.more .top.clicked {
-  color: #28405d;
-}
-.left-slide-lp .list .one.active:hover {
-  background-color: #fff;
-}
-.left-slide-lp .list .one.active .son:hover {
-  color: #1286ff;
-}
-.left-slide-lp .list .one .child-list {
-  display: none;
-}
-.left-slide-lp .list .one .child-list .son {
-  height: 50px;
-  line-height: 50px;
-  font-size: 16px;
-  color: #28405d;
-  padding-left: 81px;
-}
-.left-slide-lp .list .one .child-list .son:before {
-  content: ' ';
-  display: inline-block;
-  width: 5px;
-  height: 5px;
-  background: url('../img/round.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: -2px;
-  left: -10px;
-}
-.left-slide-lp .list .one.active .child-list {
-  display: block;
-}
-.left-slide-lp .list .one.active .child-list .son.clicked {
-  color: #1286ff;
-}
-.left-slide-lp .list .bingan:before {
-  content: ' ';
-  display: inline-block;
-  width: 26px;
-  height: 26px;
-  background: url('../img/binganshouye_icon.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: 7px;
-  left: -18px;
-}
-.left-slide-lp .list .changqi:before {
-  content: ' ';
-  display: inline-block;
-  width: 26px;
-  height: 26px;
-  background: url('../img/changqiyizhu_icon.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: 7px;
-  left: -18px;
-}
-.left-slide-lp .list .linshi:before {
-  content: ' ';
-  display: inline-block;
-  width: 26px;
-  height: 26px;
-  background: url('../img/linshiyizhu_icon.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: 7px;
-  left: -18px;
-}
-.left-slide-lp .list .zhuyuan:before {
-  content: ' ';
-  display: inline-block;
-  width: 26px;
-  height: 26px;
-  background: url('../img/ruyuanjilu_icon.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: 7px;
-  left: -18px;
-}
-.left-slide-lp .list .chuyuan:before {
-  content: ' ';
-  display: inline-block;
-  width: 26px;
-  height: 26px;
-  background: url('../img/chuyuanxiaojie_icon.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: 7px;
-  left: -18px;
-}
-.left-slide-lp .list .jiancha:before {
-  content: ' ';
-  display: inline-block;
-  width: 26px;
-  height: 26px;
-  background: url('../img/zhuyuanjiancha_icon.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: 7px;
-  left: -18px;
-}
-.left-slide-lp .list .jianyan:before {
-  content: ' ';
-  display: inline-block;
-  width: 26px;
-  height: 26px;
-  background: url('../img/zhuyuanjianyan_icon.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: 7px;
-  left: -18px;
-}
-.left-slide-lp .list .huizhen:before {
-  content: ' ';
-  display: inline-block;
-  width: 26px;
-  height: 26px;
-  background: url('../img/huizhenjilu_icon.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: 7px;
-  left: -18px;
-}
-.left-slide-lp .list .zhuanzhen:before {
-  content: ' ';
-  display: inline-block;
-  width: 26px;
-  height: 26px;
-  background: url('../img/zhuanzhenjilu_icon.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: 7px;
-  left: -18px;
-}
-.left-slide-lp .list .feiyong:before {
-  content: ' ';
-  display: inline-block;
-  width: 26px;
-  height: 26px;
-  background: url('../img/feiyongqingdan_icon.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  top: 7px;
-  left: -18px;
-}
-.left-slide-lp .list .more .top {
-  position: relative;
-}
-.left-slide-lp .list .more .top:after {
-  content: ' ';
-  display: inline-block;
-  width: 13px;
-  height: 13px;
-  background: url('../img/tri-down.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: absolute;
-  top: 19px;
-  right: 26px;
-}
-.left-slide-lp .list .more.active .top {
-  position: relative;
-}
-.left-slide-lp .list .more.active .top:after {
-  background: url('../img/tri-up.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-}
 .right-slide-lp {
   width: 958px;
   position: relative;
-  float: right;
   min-height: 1050px;
   background-color: #fff;
 }
@@ -583,10 +379,13 @@
   width: 152px;
 }
 .right-slide-lp .messg-list .msg-one .content .one.longer {
-  width: 350px;
+  width: 380px;
 }
 .right-slide-lp .messg-list .msg-one .content .one.long {
-  width: 260px;
+  width: 247px;
+}
+.right-slide-lp .messg-list .msg-one .content .one.long.alignr {
+  text-align: right;
 }
 .right-slide-lp .messg-list .msg-one .content .one.w-33 {
   width: 292px;
